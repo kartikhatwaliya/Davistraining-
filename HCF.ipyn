@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNpr3XXgraZBLxJOjBBlsQP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kartikhatwaliya/Davistraining-/blob/main/HCF.ipyn\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aKk4OFqp6Lgx",
+        "outputId": "75cd49d5-77ce-4084-c671-ea095eea59b3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first nummber 34\n",
+            "Enter second nnumber 12\n",
+            "HCF is  2\n"
+          ]
+        }
+      ],
+      "source": [
+        "#HCF find kro\n",
+        "a = int(input(\"Enter first nummber \"))\n",
+        "b = int(input(\"Enter second nnumber \"))\n",
+        "if(b==0):\n",
+        " print(\"HCF is \",a)\n",
+        "else:\n",
+        "  while(b!=0):\n",
+        "    rem = a%b\n",
+        "    a = b\n",
+        "    b = rem\n",
+        "  print(\"HCF is \",a)"
+      ]
+    }
+  ]
+}
