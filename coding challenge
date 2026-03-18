@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPAychwDTib2c7rmPG6MUr4",
+      "authorship_tag": "ABX9TyO+kgd4tXgMkvI0em0wTxWO",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -42,6 +42,34 @@
         "\n",
         "print(\"Final price after discount:\", final_price)"
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Question-2\n",
+        "age = int(input(\"Enter age: \"))\n",
+        "\n",
+        "if age >= 18:\n",
+        "    print(\"Eligible\")\n",
+        "else:\n",
+        "    print(\"Not Eligible\")"
+      ],
+      "metadata": {
+        "id": "bmLMZXCvMH0M"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Question-3"
+      ],
+      "metadata": {
+        "id": "S-1juTIrNIDJ"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
